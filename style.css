@@ -1,0 +1,47 @@
+body{
+      background-color: #D3D3D3;
+      font-family: 'Oswald', sans-serif;
+      line-height: 22px;
+      box-sizing: border-box;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+
+    }
+    .bold{
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .container{
+      margin: 10%;
+      border: 4px solid blue;
+
+    }
+    /*lewy pasek*/
+    div.left{
+      background-color: #344154;
+      color: #E8E8E8;
+      width: 360px;
+      
+    }
+    /*profilowe*/
+    img.profilePicture{
+      border-radius: 50%;
+      padding: 20px;
+    }
+    /*o mnie*/
+    div.bio{
+      padding: 10px;
+    }
+    h2.bio{
+      text-transform: uppercase;
+    }
+    /*kontakt*/
+    div.contact{
+      padding: 10px;
+    }
+    /*pasek po prawej*/
+    div.name{
+      background-color: #dde1e4;
+    }
